@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+        label "Agent 1"
+    }
 
     environment {
         GIT_URL = "https://github.com/Sandipan-seth/Jenkins.git"
